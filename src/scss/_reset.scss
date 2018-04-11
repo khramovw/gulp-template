@@ -1,4 +1,7 @@
+@import "customvaribles";
+
 /* reset */
+
 
 *{
   font-family: $generalFont;
@@ -22,7 +25,6 @@ body{
   box-sizing: border-box;
   background-color: $bodyBgColor
 }
-body(
 h1, h2, h3, h4, h5, h6, p{
   margin: 0;
 }
