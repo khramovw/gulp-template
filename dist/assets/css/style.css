@@ -1,0 +1,88 @@
+/* @mixins */
+/* fonts */
+/* reset */
+* {
+  font-family: "Roboto", apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: -webkit-calc( 100vw / 1920 * 10);
+  font-size: calc( 100vw / 1920 * 10);
+  font-weight: 400;
+  line-height: 1; }
+  *:focus {
+    outline: none !important;
+    border: none !important; }
+  *:before, *:after {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+/* scss */
+/* DEFAULT STYLE */
+/* Fonts */
+/* fonts */
+/* RESET */
+/* reset */
+* {
+  font-family: "Roboto", apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  font-size: -webkit-calc( 100vw / 1920 * 10);
+  font-size: calc( 100vw / 1920 * 10);
+  font-weight: 400;
+  line-height: 1; }
+  *:focus {
+    outline: none !important;
+    border: none !important; }
+  *:before, *:after {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+
+body {
+  margin: 0;
+  padding: 0;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background-color: #fff; }
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0; }
+
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  color: #fff;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none; }
+
+/* layout classes */
+/* @media*/
+/* media */
