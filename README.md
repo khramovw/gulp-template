@@ -22,9 +22,9 @@ Task name          | Description
 ### Other tasks
 Task name          | Description                                                      
 :------------------|:----------------------------------
-`sass` 	           | compile .sass/.scss to .css. We also use [postcss](https://github.com/postcss/postcss) for                          |   [autoprefixer](https://github.com/postcss/autoprefixer) and [Lost]                                                |     (https://github.com/peterramsing/lost), so feel free to include other awesome postcss                           |     [plugins](https://github.com/postcss/postcss#plugins) when needed
-`babel`            | compile src/js/*, es6 transform in es2015 [https://babeljs.io/)
-`browsersync`      | run dev-server watch changes js, css, html files powered by [BrowserSync]                                                 (https://www.browsersync.io/)
+`sass` 	           | compile .sass/.scss to .css. We also use [postcss](https://github.com/postcss/postcss) for [autoprefixer](https://github.com/postcss/autoprefixer) and [Lost](https://github.com/peterramsing/lost), so feel free to include other awesome postcss [plugins](https://github.com/postcss/postcss#plugins) when needed
+`babel`            | compile src/js/*, es6 transform in [es2015](https://babeljs.io/)
+`browsersync`      | run dev-server watch changes js, css, html files powered by [BrowserSync](https://www.browsersync.io/)
 
 
 _ All available tasks are placed in a folder `./gulp/tasks` as separate *.js files. Usually, file name = task name._

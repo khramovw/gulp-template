@@ -8,7 +8,7 @@ gulp.task('browser-sync', function() {
             baseDir: "dist"
         },
         notify: false, // Отключаю уведомления
-        files: ['dist/*.html', 'dist/css/*.css', 'dist/js/*.js']
+        files: ['dist/*.html', 'dist/assets/css/*.css', 'dist/assets/js/**/*.js', 'dist/assets/img/**/*.*', 'dist/assets/fonts/**/*.*']
     });
 });
 

@@ -6,10 +6,10 @@ var postcss      = require('gulp-postcss');
 var autoprefixer = require('autoprefixer');
 
 gulp.task('sass', function () {
-    return gulp.src('src/scss/**/*.{scss,sass}')
+    return gulp.src('src/scss/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([ autoprefixer() ]))
-        .pipe(gulp.dest('dist/css'));
+        .pipe(gulp.dest('dist/assets/css'));
 });
 
 gulp.watch('src/scss/**/*.scss', ['sass']);
